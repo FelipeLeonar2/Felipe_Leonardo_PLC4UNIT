@@ -172,329 +172,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Optocoupler_AKL:FOD817S"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "OC"
-				(at 6.35 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FOD817S"
-				(at 6.35 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DIP_AKL:SMDIP-4_W9.53mm"
-				(at -5.08 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/3a0358906a5fcb3aa253d025de809a1d/FOD814300W.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMDIP-4 Optocoupler, Transistor output, 5kV, 8us, Alternate KiCAD Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Optocoupler transistor output bidirectional input FOD817"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FOD817S_0_1"
-				(polyline
-					(pts
-						(xy -4.445 -0.635) (xy -3.175 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -0.635) (xy -4.445 0.635) (xy -3.175 0.635) (xy -3.81 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -3.81 -1.27) (xy -3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.54) (xy 3.175 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.1975 -2.54)
-					(mid -5.7151 0)
-					(end -3.1975 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy 3.429 2.54) (xy 4.318 2.286) (xy 4.699 2.032) (xy 5.08 1.651) (xy 5.461 1.016)
-						(xy 5.715 0.381) (xy 5.715 -0.381) (xy 5.461 -1.143) (xy 4.826 -1.905) (xy 4.191 -2.286) (xy 3.302 -2.54)
-						(xy -3.81 -2.54) (xy -3.81 -2.54) (xy -4.572 -2.032) (xy -5.08 -1.778) (xy -5.588 -0.508) (xy -5.588 0.254)
-						(xy -5.588 1.016) (xy -5.08 1.778) (xy -4.318 2.286) (xy -3.556 2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0.01)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 0.508) (xy -0.127 0.508) (xy -0.508 0.381) (xy -0.508 0.635) (xy -0.127 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 -0.508) (xy -0.127 -0.508) (xy -0.508 -0.635) (xy -0.508 -0.381) (xy -0.127 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.905) (xy 1.905 -1.905) (xy 1.905 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0.635) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.413 -1.651) (xy 2.921 -1.143) (xy 3.429 -2.159) (xy 2.413 -1.651) (xy 2.413 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 3.1975 2.54)
-					(mid 5.7151 0)
-					(end 3.1975 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 1.905 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "FOD817S_1_1"
-				(pin passive line
-					(at -3.81 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Relay:Fujitsu_FTR-LYCA005x"
+		(symbol "Relay:G5V-1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -507,7 +185,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Fujitsu_FTR-LYCA005x"
+			(property "Value" "G5V-1"
 				(at 11.43 1.27 0)
 				(effects
 					(font
@@ -516,27 +194,16 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
-				(at 11.43 -1.27 0)
+			(property "Footprint" "Relay_THT:Relay_SPDT_Omron_G5V-1"
+				(at 28.702 -0.762 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
-				(at 16.51 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -545,7 +212,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "6A SPDT Relay"
+			(property "Description" "Ultra-miniature, Highly Sensitive SPDT Relay for Signal Circuits"
 				(at 0 0 0)
 				(effects
 					(font
@@ -554,7 +221,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay*Fujitsu*FTR?LYC*"
+			(property "ki_keywords" "Single Pole Relay SPDT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -563,7 +230,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "Fujitsu_FTR-LYCA005x_0_0"
+			(property "ki_fp_filters" "Relay*SPDT*Omron*G5V?1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "G5V-1_0_0"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
@@ -577,7 +253,7 @@
 					)
 				)
 			)
-			(symbol "Fujitsu_FTR-LYCA005x_0_1"
+			(symbol "G5V-1_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -733,7 +409,7 @@
 					)
 				)
 			)
-			(symbol "Fujitsu_FTR-LYCA005x_1_1"
+			(symbol "G5V-1_1_1"
 				(pin passive line
 					(at -5.08 7.62 270)
 					(length 2.54)
@@ -744,7 +420,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -762,7 +438,7 @@
 							)
 						)
 					)
-					(number "A2"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -780,7 +456,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -798,7 +474,26 @@
 							)
 						)
 					)
-					(number "11"
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -816,7 +511,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -827,217 +522,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Resistor_AKL:R_0603"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_BJT:DTC123E"
 			(pin_names
 				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_0603"
-				(at 2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor eu SMD 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0603_0_1"
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -1.524 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.524) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.524) (xy 0.889 2.159) (xy -2.159 -0.889) (xy -0.889 -2.159) (xy 2.159 0.889) (xy 1.524 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_0603_1_2"
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT_AKL:BFN26"
-			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1045,8 +539,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BFN26"
-				(at 5.08 -1.27 0)
+			(property "Value" "DTC123E"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1054,16 +548,27 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-23"
-				(at 5.08 2.54 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.tme.eu/Document/43310f91a0e397761035f1d1abdd24c6/BFN24.pdf"
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Digital NPN Transistor, 2k2/2k2, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1072,7 +577,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "NPN SOT-23 high voltage transistor, 300V, 200mA, 360mW, Alternate KiCAD Library"
+			(property "ki_keywords" "ROHM Digital NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1081,7 +586,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor NPN BFN26"
+			(property "ki_fp_filters" "SOT?23* SC?59*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1090,22 +595,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "BFN26_0_1"
+			(symbol "DTC123E_0_0"
+				(text "2k2"
+					(at -3.302 0.889 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(text "2k2"
+					(at -2.159 -1.524 900)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(symbol "DTC123E_0_1"
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy -3.429 0) (xy -3.81 0)
 					)
 					(stroke
 						(width 0)
@@ -1117,7 +628,140 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy -1.27 3.175) (xy 0.635 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -0.381) (xy -0.762 -0.508) (xy -1.778 -0.762) (xy -0.762 -1.016) (xy -1.778 -1.27)
+						(xy -0.762 -1.524) (xy -1.778 -1.778) (xy -1.27 -1.905) (xy -1.27 -2.286) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.175) (xy 0.635 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -3.175)
+					(mid -4.4312 0)
+					(end -1.27 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.905 0) (xy -2.032 0.508) (xy -2.286 -0.508) (xy -2.54 0.508) (xy -2.794 -0.508)
+						(xy -3.048 0.508) (xy -3.302 -0.508) (xy -3.429 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 1.524) (xy 0.127 -1.651)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.635 3.175)
+					(mid 3.7962 0)
+					(end 0.635 -3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 -1.143) (xy 1.397 -0.635) (xy 1.905 -1.651) (xy 0.889 -1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.286) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.286) (xy 0 0.254) (xy 0 0.254)
 					)
 					(stroke
 						(width 0)
@@ -1128,33 +772,21 @@
 					)
 				)
 				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
+					(center 2.54 -2.286)
+					(radius 0.127)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 			)
-			(symbol "BFN26_1_1"
+			(symbol "DTC123E_1_1"
 				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
+					(at -6.35 0 0)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -1448,22 +1080,6 @@
 		(color 0 0 0 0)
 		(uuid "ac35a6f1-3320-4921-88f6-11524744ea95")
 	)
-	(junction
-		(at 130.81 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5ef5f47-baf2-407f-97dd-b483c415a768")
-	)
-	(wire
-		(pts
-			(xy 130.81 114.3) (xy 130.81 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10bff234-4df4-4880-b5f5-f270238b7da6")
-	)
 	(wire
 		(pts
 			(xy 148.59 104.14) (xy 158.75 104.14)
@@ -1486,7 +1102,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 96.52) (xy 109.22 96.52)
+			(xy 130.81 111.76) (xy 149.86 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1496,17 +1112,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 109.22) (xy 123.19 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "577196c6-ede9-467c-9f75-4dffeff2ccc4")
-	)
-	(wire
-		(pts
-			(xy 168.91 102.87) (xy 168.91 106.68)
+			(xy 170.18 102.87) (xy 170.18 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1526,17 +1132,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 111.76) (xy 130.81 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c64ea33-1a90-48e9-a873-57b4cb29e43e")
-	)
-	(wire
-		(pts
-			(xy 166.37 87.63) (xy 166.37 83.82)
+			(xy 167.64 87.63) (xy 167.64 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1546,7 +1142,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 106.68) (xy 201.93 106.68)
+			(xy 170.18 106.68) (xy 201.93 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1566,16 +1162,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 87.63) (xy 130.81 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9da3a4c5-5566-4662-bed9-f13ba803aeae")
-	)
-	(wire
-		(pts
 			(xy 148.59 91.44) (xy 148.59 86.36)
 		)
 		(stroke
@@ -1586,17 +1172,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 96.52) (xy 123.19 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abbda6ec-db5a-4287-b0cd-f39aa0572e60")
-	)
-	(wire
-		(pts
-			(xy 158.75 102.87) (xy 158.75 104.14)
+			(xy 160.02 102.87) (xy 160.02 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1606,33 +1182,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 83.82) (xy 201.93 83.82)
+			(xy 167.64 83.82) (xy 201.93 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b248cc96-5be0-48ac-8c43-2ba97142de9d")
-	)
-	(wire
-		(pts
-			(xy 116.84 96.52) (xy 123.19 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b28b1806-b569-4c46-9d0c-aa0d0804d42a")
-	)
-	(wire
-		(pts
-			(xy 130.81 111.76) (xy 138.43 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a0ee4d-6a39-4d13-b989-8b2c11075436")
 	)
 	(wire
 		(pts
@@ -1646,7 +1202,17 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 86.36) (xy 158.75 87.63)
+			(xy 160.02 86.36) (xy 158.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ce1a17-da0a-4ec5-a002-0b0b74762027")
+	)
+	(wire
+		(pts
+			(xy 160.02 86.36) (xy 160.02 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1666,7 +1232,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 87.63) (xy 201.93 87.63)
+			(xy 172.72 87.63) (xy 201.93 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1676,23 +1242,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 121.92) (xy 130.81 123.19)
+			(xy 160.02 104.14) (xy 158.75 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f099eb32-fc07-435f-9493-3914e91207ee")
-	)
-	(wire
-		(pts
-			(xy 146.05 111.76) (xy 151.13 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa1d4524-3019-4122-b33d-2b77f76a787a")
+		(uuid "ec36f3e1-e110-407f-a528-1f8fc1eb98ec")
 	)
 	(hierarchical_label "out-common-1"
 		(shape output)
@@ -1729,7 +1285,7 @@
 	)
 	(hierarchical_label "IN"
 		(shape input)
-		(at 105.41 96.52 180)
+		(at 130.81 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1737,510 +1293,6 @@
 			(justify right)
 		)
 		(uuid "cbf97875-7dea-41a3-af03-1b3c32a83d57")
-	)
-	(symbol
-		(lib_id "Transistor_BJT_AKL:BFN26")
-		(at 156.21 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12b9f526-b16f-419d-94cb-4ef775a29221")
-		(property "Reference" "Q10"
-			(at 161.29 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BFN26"
-			(at 161.29 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-23"
-			(at 161.29 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/43310f91a0e397761035f1d1abdd24c6/BFN24.pdf"
-			(at 156.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN SOT-23 high voltage transistor, 300V, 200mA, 360mW, Alternate KiCAD Library"
-			(at 156.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "BC817-25,215"
-			(at 168.148 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f37aa29e-04e8-494a-8e39-c89cc0b93e3a")
-		)
-		(pin "2"
-			(uuid "1acc1a3b-ee86-45e5-90b2-463c8c2fce8f")
-		)
-		(pin "3"
-			(uuid "17f376fd-a77f-4f6b-8311-e4f3a65eb995")
-		)
-		(instances
-			(project "Diseños de circuitos"
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/300cbd4a-1c9e-448a-950a-bfd812e6e5a0"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15cb9452-e68d-40e2-bb3d-aaa54e1aa9fa")
-		(property "Reference" "#PWR044"
-			(at 130.81 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "349d2654-edf0-45d2-a1cc-ee5d0e314837")
-		)
-		(instances
-			(project "Diseños de circuitos"
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/300cbd4a-1c9e-448a-950a-bfd812e6e5a0"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "199a82ac-cd03-4648-a54f-f2c780693962")
-		(property "Reference" "#PWR043"
-			(at 123.19 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d8b6312-d6e0-4763-a0b3-8cee53440274")
-		)
-		(instances
-			(project "Diseños de circuitos"
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/300cbd4a-1c9e-448a-950a-bfd812e6e5a0"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistor_AKL:R_0603")
-		(at 130.81 118.11 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ca3b64e-bfa9-4407-86d4-0a3a44f9dc54")
-		(property "Reference" "R34"
-			(at 133.35 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2K"
-			(at 133.35 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 130.81 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 130.81 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "70ed86ac-96d8-4ba4-9cc4-7651562f6c02")
-		)
-		(pin "1"
-			(uuid "779dd696-55b0-489d-bcf7-72508883cb54")
-		)
-		(instances
-			(project "Diseños de circuitos"
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/300cbd4a-1c9e-448a-950a-bfd812e6e5a0"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 130.81 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e796936-8a1b-4573-875b-31131eb09b57")
-		(property "Reference" "#PWR041"
-			(at 130.81 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 130.81 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa9bd13c-6290-49d8-a282-b2de7a5f25e3")
-		)
-		(instances
-			(project "Diseños de circuitos"
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/300cbd4a-1c9e-448a-950a-bfd812e6e5a0"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistor_AKL:R_0603")
-		(at 142.24 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2337c5fc-3a48-4fdb-9c99-19430229b46c")
-		(property "Reference" "R35"
-			(at 142.24 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 142.24 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 130.81 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 142.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dbea7883-298f-4a46-a72d-a051f5493cfb")
-		)
-		(pin "1"
-			(uuid "5a476839-8699-4ce1-9ee8-cffae48220c7")
-		)
-		(instances
-			(project "Diseños de circuitos"
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/300cbd4a-1c9e-448a-950a-bfd812e6e5a0"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Optocoupler_AKL:FOD817S")
-		(at 127 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31a32839-0e87-4378-8f3c-74da65c69436")
-		(property "Reference" "OC7"
-			(at 134.62 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FOD817S"
-			(at 134.62 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_DIP_AKL:SMDIP-4_W9.53mm"
-			(at 121.92 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/3a0358906a5fcb3aa253d025de809a1d/FOD814300W.PDF"
-			(at 127 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMDIP-4 Optocoupler, Transistor output, 5kV, 8us, Alternate KiCAD Library"
-			(at 127 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "LTV-354"
-			(at 136.906 100.076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "d8e206d9-045c-477c-98d9-d3ddefd8162d")
-		)
-		(pin "4"
-			(uuid "3fd6e204-f9d8-4def-aaa2-72331c598469")
-		)
-		(pin "2"
-			(uuid "ef3f4704-b87e-4253-9a75-e191cc599422")
-		)
-		(pin "1"
-			(uuid "7b1ea8a6-8a0c-4059-9e89-7d2a77dda1f5")
-		)
-		(instances
-			(project "Diseños de circuitos"
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/300cbd4a-1c9e-448a-950a-bfd812e6e5a0"
-					(reference "OC7")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -2252,7 +1304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ac22aa7-e3f9-447e-b802-18e9d611049f")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR050"
 			(at 158.75 86.36 0)
 			(effects
 				(font
@@ -2302,88 +1354,7 @@
 		(instances
 			(project "Diseños de circuitos"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/300cbd4a-1c9e-448a-950a-bfd812e6e5a0"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYCA005x")
-		(at 163.83 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95afca37-786d-4fce-be33-dcf4def4b0d0")
-		(property "Reference" "K1"
-			(at 175.26 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fujitsu_FTR-LYCA005x"
-			(at 175.26 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
-			(at 175.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
-			(at 180.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 163.83 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "0dd9d810-0dc6-4bc0-abca-e08d95b9f552")
-		)
-		(pin "A1"
-			(uuid "f021cd4f-d97e-4ea2-9248-ceb7cf742c4d")
-		)
-		(pin "A2"
-			(uuid "3999349a-1265-4b58-9f2e-ae8d052262c3")
-		)
-		(pin "11"
-			(uuid "916d9568-b3e7-4b7c-a073-b2b5794a61c1")
-		)
-		(pin "12"
-			(uuid "11f11d8d-b9a5-4cfd-b29b-f749f0553958")
-		)
-		(instances
-			(project ""
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/300cbd4a-1c9e-448a-950a-bfd812e6e5a0"
-					(reference "K1")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2398,7 +1369,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a03372db-65d6-464d-a787-2ba28d26405d")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 145.034 92.202 90)
 			(effects
 				(font
@@ -2479,75 +1450,164 @@
 		(instances
 			(project ""
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/300cbd4a-1c9e-448a-950a-bfd812e6e5a0"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Resistor_AKL:R_0603")
-		(at 113.03 96.52 90)
+		(lib_id "Transistor_BJT:DTC123E")
+		(at 156.21 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "acc4334e-fd67-4eab-9c19-320eb44f62b2")
-		(property "Reference" "R33"
-			(at 113.03 90.17 90)
+		(uuid "e12aae45-bc35-4657-94e2-664bd584dc6a")
+		(property "Reference" "Q10"
+			(at 161.29 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "510"
-			(at 113.03 92.71 90)
+		(property "Value" "DTC123E"
+			(at 161.29 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 124.46 96.52 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 156.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital NPN Transistor, 2k2/2k2, SOT-23"
+			(at 156.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 113.03 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9a8cc6dd-0e26-4adb-a055-8d6284c220a9")
 		)
 		(pin "1"
-			(uuid "03bde481-22a3-40a1-8ada-85432a9df755")
+			(uuid "2a76694f-58a3-4547-afee-8ac4b2f23dfe")
+		)
+		(pin "2"
+			(uuid "89d51474-30d0-49d0-95fc-212544a94830")
+		)
+		(pin "3"
+			(uuid "c43b980d-4413-46c7-aafa-ed76fd6ef6e9")
 		)
 		(instances
-			(project "Diseños de circuitos"
+			(project ""
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/300cbd4a-1c9e-448a-950a-bfd812e6e5a0"
-					(reference "R33")
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G5V-1")
+		(at 165.1 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f00b49e6-ffcb-4bf9-9711-fc211de34833")
+		(property "Reference" "K1"
+			(at 176.53 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5V-1"
+			(at 176.53 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Omron_G5V-1"
+			(at 193.802 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra-miniature, Highly Sensitive SPDT Relay for Signal Circuits"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "562a2503-5b10-45d2-99c4-cb7f9af3e795")
+		)
+		(pin "2"
+			(uuid "82d0c779-0f0c-431a-94e7-64446fcb8ed6")
+		)
+		(pin "9"
+			(uuid "67c43fc4-12ae-4132-a871-ac44a42dcbc3")
+		)
+		(pin "1"
+			(uuid "2a75fd62-fc67-4fd0-9c08-f1c16b8cf1a5")
+		)
+		(pin "5"
+			(uuid "83fdf87b-aacd-4c7c-b7fe-fa906dcd93fc")
+		)
+		(pin "10"
+			(uuid "725e04ee-563b-4897-9a8a-1343ce6bc329")
+		)
+		(instances
+			(project ""
+				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/300cbd4a-1c9e-448a-950a-bfd812e6e5a0"
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -2563,7 +1623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2313880-01cb-45c2-a99c-1a2c8633e52f")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR051"
 			(at 158.75 129.54 0)
 			(effects
 				(font
@@ -2613,7 +1673,7 @@
 		(instances
 			(project "Diseños de circuitos"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/300cbd4a-1c9e-448a-950a-bfd812e6e5a0"
-					(reference "#PWR042")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

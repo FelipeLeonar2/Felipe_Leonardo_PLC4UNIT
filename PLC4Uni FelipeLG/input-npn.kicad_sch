@@ -207,15 +207,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT_AKL:BFN26"
+		(symbol "Transistor_BJT:DTA143E"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -223,8 +224,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BFN26"
-				(at 5.08 -1.27 0)
+			(property "Value" "DTA143E"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -232,16 +233,27 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-23"
-				(at 5.08 2.54 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.tme.eu/Document/43310f91a0e397761035f1d1abdd24c6/BFN24.pdf"
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Digital PNP Transistor, 4k7/4k7, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -250,7 +262,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "NPN SOT-23 high voltage transistor, 300V, 200mA, 360mW, Alternate KiCAD Library"
+			(property "ki_keywords" "ROHM Digital PNP Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -259,7 +271,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor NPN BFN26"
+			(property "ki_fp_filters" "SOT?23* SC?59*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -268,22 +280,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "BFN26_0_1"
+			(symbol "DTA143E_0_0"
+				(text "4k7"
+					(at -2.921 0.889 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(text "4k7"
+					(at -2.159 -1.524 900)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(symbol "DTA143E_0_1"
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy -3.429 0) (xy -3.81 0)
 					)
 					(stroke
 						(width 0)
@@ -295,7 +313,140 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy -1.27 3.175) (xy 0.635 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -0.381) (xy -0.762 -0.508) (xy -1.778 -0.762) (xy -0.762 -1.016) (xy -1.778 -1.27)
+						(xy -0.762 -1.524) (xy -1.778 -1.778) (xy -1.27 -1.905) (xy -1.27 -2.286) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.175) (xy 0.635 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -3.175)
+					(mid -4.4312 0)
+					(end -1.27 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.905 0) (xy -2.032 0.508) (xy -2.286 -0.508) (xy -2.54 0.508) (xy -2.794 -0.508)
+						(xy -3.048 0.508) (xy -3.302 -0.508) (xy -3.429 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 1.524) (xy 0.127 -1.651)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.635 3.175)
+					(mid 3.7962 0)
+					(end 0.635 -3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -1.651) (xy 1.905 -1.143) (xy 0.889 -0.635) (xy 1.397 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.286) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.286) (xy 0 0.254) (xy 0 0.254)
 					)
 					(stroke
 						(width 0)
@@ -306,33 +457,21 @@
 					)
 				)
 				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
+					(center 2.54 -2.286)
+					(radius 0.127)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 			)
-			(symbol "BFN26_1_1"
+			(symbol "DTA143E_1_1"
 				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
+					(at -6.35 0 0)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -615,104 +754,179 @@
 		)
 	)
 	(junction
-		(at 119.38 99.06)
+		(at 93.98 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3fa297f3-0b7e-4640-a96f-8a59ed6035a0")
+		(uuid "79e738ec-bf46-436b-a9cd-2d55716be9b3")
 	)
 	(wire
 		(pts
-			(xy 119.38 87.63) (xy 119.38 88.9)
+			(xy 77.47 90.17) (xy 85.09 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "410f10a0-cc93-4c32-a9d3-cd8e313dd0b0")
+		(uuid "732444d4-bd32-46bc-bb61-651f63d4b279")
 	)
 	(wire
 		(pts
-			(xy 101.6 106.68) (xy 104.14 106.68)
+			(xy 93.98 99.06) (xy 109.22 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6823c38c-dd14-4ed5-8a25-3e56c905eee7")
+		(uuid "990439b8-25d9-4598-bc69-86646b59fe1f")
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 119.38 99.06)
+			(xy 93.98 95.25) (xy 93.98 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9269feea-8f91-41e7-b70c-53f82325d269")
+		(uuid "b6a08e63-eccd-427f-96ed-29fae5abbeaa")
 	)
 	(wire
 		(pts
-			(xy 119.38 111.76) (xy 119.38 115.57)
+			(xy 93.98 110.49) (xy 93.98 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7570d32-ff85-4c55-91d6-5a9fafc304c6")
+		(uuid "c389e188-c52c-4b22-b6fe-3096564cf9a1")
 	)
 	(wire
 		(pts
-			(xy 119.38 99.06) (xy 127 99.06)
+			(xy 93.98 99.06) (xy 93.98 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfe6277f-da2e-4864-aab8-8c5056f4ff57")
+		(uuid "c830ef45-0e9d-4a7b-b414-62296e147748")
 	)
 	(wire
 		(pts
-			(xy 119.38 99.06) (xy 119.38 101.6)
+			(xy 93.98 81.28) (xy 93.98 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f87a795c-0b9d-46a2-b7d0-8e286578d1f0")
-	)
-	(hierarchical_label "OUT"
-		(shape output)
-		(at 127 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "126ce946-49bb-400d-b4df-3ab39a4abcca")
+		(uuid "e9e008dc-1ef1-4727-a3d8-3402eb5f14a0")
 	)
 	(hierarchical_label "IN"
 		(shape input)
-		(at 101.6 106.68 180)
+		(at 77.47 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "670ef8a4-d732-4023-8361-439c33f77725")
+		(uuid "58dbc7b1-3c89-4d0e-8abb-f79f8c82c3b2")
+	)
+	(hierarchical_label "OUT"
+		(shape output)
+		(at 109.22 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5adc898-4dbb-4188-91c6-df68d3f3be3b")
 	)
 	(symbol
-		(lib_id "Transistor_BJT_AKL:BFN26")
-		(at 116.84 106.68 0)
+		(lib_id "Resistor_AKL:R_0603")
+		(at 93.98 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "59b4718a-776d-40ca-aca3-305dd8db3a34")
+		(fields_autoplaced yes)
+		(uuid "3323fc77-d802-4742-b225-1db1a383e48f")
+		(property "Reference" "R5"
+			(at 96.52 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.4k"
+			(at 96.52 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 93.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 93.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16e7911a-cb9d-4bdd-9c92-928150bc1177")
+		)
+		(pin "1"
+			(uuid "d8ec737b-7654-43ab-8a3a-a6c9b3a568c1")
+		)
+		(instances
+			(project "PLC4Uni FelipeLG"
+				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/2b288a7a-cc1f-443e-993d-9f7a4eb93332"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/cd55effb-790d-42d9-83a5-ffdce689eed1"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:DTA143E")
+		(at 91.44 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fca4a27-0ac2-4c81-9a3a-cb9fc0749aa1")
 		(property "Reference" "Q1"
-			(at 121.92 105.4099 0)
+			(at 96.52 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -720,8 +934,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BFN26"
-			(at 121.92 107.9499 0)
+		(property "Value" "DTA143E"
+			(at 96.52 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SC-59"
+			(at 91.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -730,58 +953,42 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-23"
-			(at 121.92 104.14 0)
+		(property "Datasheet" ""
+			(at 91.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital PNP Transistor, 4k7/4k7, SOT-23"
+			(at 91.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/43310f91a0e397761035f1d1abdd24c6/BFN24.pdf"
-			(at 116.84 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN SOT-23 high voltage transistor, 300V, 200mA, 360mW, Alternate KiCAD Library"
-			(at 116.84 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "BC817-25,215"
-			(at 128.778 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
-			(uuid "df3ac55e-5174-45ba-bd6e-bf5525cc8b6d")
-		)
-		(pin "2"
-			(uuid "7bd0c401-916f-4c6a-9d32-2b35964e86d0")
+			(uuid "a49c34f6-536e-446b-9be2-674837bff0df")
 		)
 		(pin "3"
-			(uuid "4b57eb8e-9fbe-484d-bdff-f36e9e85049d")
+			(uuid "ac13faad-8ee3-47af-baf7-9f700e325ccd")
+		)
+		(pin "2"
+			(uuid "07abfab7-c68f-44d8-aca4-6e2d8f7399f9")
 		)
 		(instances
-			(project ""
+			(project "PLC4Uni FelipeLG"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/2b288a7a-cc1f-443e-993d-9f7a4eb93332"
 					(reference "Q1")
 					(unit 1)
 				)
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/cd55effb-790d-42d9-83a5-ffdce689eed1"
-					(reference "Q2")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -789,16 +996,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 115.57 0)
+		(at 93.98 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bbbf662-8d9e-4371-87ad-946e7b34b4ea")
-		(property "Reference" "#PWR025"
-			(at 119.38 121.92 0)
+		(uuid "a82b8a49-bcd5-48d9-9583-fc8dae5ab433")
+		(property "Reference" "#PWR012"
+			(at 93.98 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -807,7 +1013,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 120.65 0)
+			(at 93.98 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -815,7 +1021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 115.57 0)
+			(at 93.98 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -824,7 +1030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 115.57 0)
+			(at 93.98 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,7 +1039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 115.57 0)
+			(at 93.98 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,16 +1048,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "296f8969-a4f3-464e-b043-e9dad52dfd5b")
+			(uuid "1d84371f-c6c4-44e4-9e60-21e685c4ca53")
 		)
 		(instances
-			(project ""
+			(project "PLC4Uni FelipeLG"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/2b288a7a-cc1f-443e-993d-9f7a4eb93332"
-					(reference "#PWR025")
+					(reference "#PWR012")
 					(unit 1)
 				)
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/cd55effb-790d-42d9-83a5-ffdce689eed1"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -859,16 +1065,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 119.38 87.63 0)
+		(at 93.98 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb35cc24-c611-42fa-bc38-209f7c59a3f8")
-		(property "Reference" "#PWR023"
-			(at 119.38 91.44 0)
+		(uuid "d6d90afe-bd4c-4af8-a352-6cad6c9027ed")
+		(property "Reference" "#PWR011"
+			(at 93.98 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -877,7 +1082,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 119.38 82.55 0)
+			(at 93.98 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,7 +1090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 87.63 0)
+			(at 93.98 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -894,7 +1099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 87.63 0)
+			(at 93.98 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,7 +1108,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 119.38 87.63 0)
+			(at 93.98 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,162 +1117,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f0af15b-f97d-4dbd-93ed-b51aa52e7072")
+			(uuid "c528cd15-b36d-4fe6-8c85-117d646a94f1")
 		)
 		(instances
-			(project ""
+			(project "PLC4Uni FelipeLG"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/2b288a7a-cc1f-443e-993d-9f7a4eb93332"
-					(reference "#PWR023")
+					(reference "#PWR011")
 					(unit 1)
 				)
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/cd55effb-790d-42d9-83a5-ffdce689eed1"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistor_AKL:R_0603")
-		(at 119.38 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7773745-6d42-42d0-aa64-ed7934f09faf")
-		(property "Reference" "R13"
-			(at 121.92 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.4k"
-			(at 121.92 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 119.38 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 119.38 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e623682d-b76d-4846-b1a6-64a25eb85b15")
-		)
-		(pin "1"
-			(uuid "64a75532-e67f-47ef-bf33-24189c6a5d62")
-		)
-		(instances
-			(project "Diseños de circuitos"
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/2b288a7a-cc1f-443e-993d-9f7a4eb93332"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/cd55effb-790d-42d9-83a5-ffdce689eed1"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistor_AKL:R_0603")
-		(at 107.95 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9d47c7d-141d-4f5e-be79-c056ff69afe6")
-		(property "Reference" "R27"
-			(at 107.95 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.4k"
-			(at 107.95 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 119.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 107.95 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "726bc342-fa26-4600-8f9b-50c72a2bf3a7")
-		)
-		(pin "1"
-			(uuid "d7afe93b-e020-493a-a843-e1a127d3963d")
-		)
-		(instances
-			(project "Diseños de circuitos"
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/2b288a7a-cc1f-443e-993d-9f7a4eb93332"
-					(reference "R27")
-					(unit 1)
-				)
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/cd55effb-790d-42d9-83a5-ffdce689eed1"
-					(reference "R28")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)

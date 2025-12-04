@@ -141,376 +141,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED_AKL:LED_1.8mm_SMD"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_1.8mm_SMD"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LED_SMD_AKL:LED_1.8mm_GullWing"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "LED, Generic 1.8mm SMD subminiature gull wing, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode generic 1.8mm SMD gull wing subminiature"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_1.8mm_SMD_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.905) (xy 0.254 3.429)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.921) (xy -0.254 3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.921) (xy 0.254 2.794)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 2.794) (xy -0.254 3.048) (xy 0.254 3.429) (xy 0.254 2.794)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.397) (xy 1.27 2.921)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 2.413) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 2.413) (xy 1.27 2.286)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.286) (xy 0.762 2.54) (xy 1.27 2.921) (xy 1.27 2.286)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1.8mm_SMD_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 2.413) (xy -2.286 1.778) (xy -1.6764 1.9812) (xy -2.159 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.889) (xy -2.159 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 2.794) (xy -1.143 2.159) (xy -0.5334 2.3622) (xy -1.016 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.27) (xy -1.016 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1.8mm_SMD_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LED_1.8mm_SMD_1_2"
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NR6028T4R7M:NR6028T4R7M"
 			(pin_names
 				(offset 1.016)
@@ -1217,36 +847,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Resistor_AKL:R_0603"
+		(symbol "power:+3.3V"
+			(power)
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_0603"
-				(at 2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-				(at 0 -11.43 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1254,7 +868,15 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1263,7 +885,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1272,7 +894,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor eu SMD 0603"
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1281,7 +903,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1290,23 +912,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0603_0_1"
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_0_2"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -2.54) (xy -1.524 -1.524)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1318,7 +927,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 1.524) (xy 2.54 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1330,10 +939,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 1.524) (xy 0.889 2.159) (xy -2.159 -0.889) (xy -0.889 -2.159) (xy 2.159 0.889) (xy 1.524 1.524)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1341,67 +950,11 @@
 					)
 				)
 			)
-			(symbol "R_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_0603_1_2"
-				(pin passive line
-					(at -2.54 -2.54 0)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
 					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1520,18 +1073,137 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 142.24 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1294dacd-0acf-4a3b-aecf-59f4f7826dfa")
-	)
-	(junction
-		(at 231.14 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2007864e-47bd-485a-b358-3fb23fa46db6")
 	)
 	(junction
 		(at 215.9 77.47)
@@ -1558,16 +1230,22 @@
 		(uuid "c3a4b663-54ef-44b8-8d12-acdf47b36c5a")
 	)
 	(junction
+		(at 116.84 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e39a8f8c-b6d7-4ab6-925b-8109db9d1017")
+	)
+	(junction
 		(at 157.48 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea2523d1-f55e-4e13-8ac0-afb934ab4b43")
 	)
 	(junction
-		(at 93.98 77.47)
+		(at 228.6 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ffa18bae-c52d-42f1-be8d-c858797335b4")
+		(uuid "ffa5260f-86a5-450c-8638-5324b23c82aa")
 	)
 	(wire
 		(pts
@@ -1611,7 +1289,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 77.47) (xy 142.24 77.47)
+			(xy 116.84 77.47) (xy 116.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35531137-9e2f-4806-9c6c-55901aa9fdde")
+	)
+	(wire
+		(pts
+			(xy 134.62 77.47) (xy 142.24 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1631,7 +1319,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 77.47) (xy 107.95 77.47)
+			(xy 113.03 77.47) (xy 116.84 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1661,7 +1349,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 77.47) (xy 215.9 77.47)
+			(xy 215.9 77.47) (xy 228.6 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1691,13 +1379,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 85.09) (xy 93.98 87.63)
+			(xy 228.6 63.5) (xy 228.6 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76b7b0ce-3888-4f25-b95f-b56960f51d8f")
+		(uuid "8da314c7-21cb-4cfe-bf51-44940d74e3ce")
 	)
 	(wire
 		(pts
@@ -1731,27 +1419,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 77.47) (xy 93.98 77.47)
+			(xy 113.03 72.39) (xy 113.03 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d232a6c-bfb1-411b-81b6-56e7aae3a09c")
+		(uuid "9ce9c2d0-3ed0-4ce5-9ca7-51f39ef7bd3a")
 	)
 	(wire
 		(pts
-			(xy 93.98 95.25) (xy 93.98 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a773a870-7013-490f-ae4b-ff3f720fce9e")
-	)
-	(wire
-		(pts
-			(xy 93.98 109.22) (xy 93.98 111.76)
+			(xy 116.84 87.63) (xy 116.84 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1771,16 +1449,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 77.47) (xy 142.24 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb79d348-e66a-4ef9-9ae7-3f945ed38f2a")
-	)
-	(wire
-		(pts
 			(xy 167.64 80.01) (xy 168.91 80.01)
 		)
 		(stroke
@@ -1788,6 +1456,16 @@
 			(type default)
 		)
 		(uuid "d04d91e9-7fc3-42ca-87d5-762a6785f7a3")
+	)
+	(wire
+		(pts
+			(xy 142.24 77.47) (xy 147.32 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39986bf-117f-4ff9-983f-848fce37cbf4")
 	)
 	(wire
 		(pts
@@ -1801,16 +1479,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 68.58) (xy 231.14 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df3c8114-4948-4669-aa7e-839f5c598a34")
-	)
-	(wire
-		(pts
 			(xy 167.64 77.47) (xy 177.8 77.47)
 		)
 		(stroke
@@ -1818,6 +1486,26 @@
 			(type default)
 		)
 		(uuid "e06b46b0-f00c-4b78-9bba-3270e59ba65e")
+	)
+	(wire
+		(pts
+			(xy 116.84 77.47) (xy 127 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18f33dc-f1b1-48d0-a429-f503d9a60f7b")
+	)
+	(wire
+		(pts
+			(xy 228.6 77.47) (xy 231.14 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39ac204-eb99-4cee-a95d-b05da36c3c6d")
 	)
 	(wire
 		(pts
@@ -1839,27 +1527,25 @@
 		)
 		(uuid "f98ca1b8-7528-4bd6-a03e-bcc10a5c7ebd")
 	)
-	(hierarchical_label "+24V"
-		(shape input)
-		(at 85.09 77.47 180)
+	(label "INEN"
+		(at 142.24 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "21b73ce4-e45e-4c1e-a6fa-c0cc0cb0e6f4")
+		(uuid "06ff8095-1baa-4f4a-833a-aeaa9ef4bb85")
 	)
-	(hierarchical_label "3.3V"
-		(shape output)
-		(at 231.14 68.58 0)
+	(label "SW"
+		(at 177.8 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "de45d50c-d2b6-4916-927e-5ef2e0a34b2e")
+		(uuid "f44c21ac-bb23-4a96-a1ca-08193eba9284")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1871,7 +1557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "089cebc4-564c-4e78-8c72-a5d757a8fde7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR046"
 			(at 157.48 96.52 0)
 			(effects
 				(font
@@ -1921,7 +1607,7 @@
 		(instances
 			(project "PLC4Uni FelipeLG"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/de35c4cd-dec3-4999-96c6-2b4bc5552c34"
-					(reference "#PWR?")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -1937,7 +1623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b3dcecd-f114-4234-b3c2-0777054e3ede")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 234.95 81.2799 0)
 			(effects
 				(font
@@ -1955,7 +1641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD_AKL:C_1206_3216Metric"
 			(at 232.1052 86.36 0)
 			(effects
 				(font
@@ -2009,7 +1695,7 @@
 		(instances
 			(project "PLC4Uni FelipeLG"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/de35c4cd-dec3-4999-96c6-2b4bc5552c34"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2024,7 +1710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ff61152-cd3e-44ae-bcd0-c2924c7d22b5")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 219.71 80.0099 0)
 			(effects
 				(font
@@ -2042,7 +1728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD_AKL:C_1206_3216Metric"
 			(at 216.8652 85.09 0)
 			(effects
 				(font
@@ -2105,7 +1791,7 @@
 		(instances
 			(project "PLC4Uni FelipeLG"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/de35c4cd-dec3-4999-96c6-2b4bc5552c34"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2113,7 +1799,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 111.76 77.47 270)
+		(at 130.81 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2121,7 +1807,7 @@
 		(dnp no)
 		(uuid "4d02d056-b8d1-4108-989f-a0904e0e00a1")
 		(property "Reference" "F1"
-			(at 111.76 71.12 90)
+			(at 130.81 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,7 +1815,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 111.76 73.66 90)
+			(at 130.81 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,7 +1824,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 111.76 75.692 90)
+			(at 130.81 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2147,7 +1833,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 77.47 0)
+			(at 130.81 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,7 +1842,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 111.76 77.47 0)
+			(at 130.81 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +1851,7 @@
 			)
 		)
 		(property "Part number" "1812L125/6V"
-			(at 111.76 74.93 90)
+			(at 130.81 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,7 +1883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "656a6ba2-44ff-4d3f-93fc-72a6205de4ae")
-		(property "Reference" "L?"
+		(property "Reference" "L1"
 			(at 194.31 71.12 0)
 			(effects
 				(font
@@ -2359,7 +2045,73 @@
 		(instances
 			(project "PLC4Uni FelipeLG"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/de35c4cd-dec3-4999-96c6-2b4bc5552c34"
-					(reference "L?")
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 228.6 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "768adb1a-bab3-4b0b-b1ce-bb55241d021f")
+		(property "Reference" "#PWR059"
+			(at 228.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 228.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9484cca2-f05c-4f5d-b8a5-f09007190078")
+		)
+		(instances
+			(project "PLC4Uni FelipeLG"
+				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/de35c4cd-dec3-4999-96c6-2b4bc5552c34"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2375,7 +2127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cc383b1-2b74-4789-8544-d273b8143609")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 172.72 72.39 90)
 			(effects
 				(font
@@ -2391,7 +2143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 176.53 79.0448 0)
 			(effects
 				(font
@@ -2445,7 +2197,7 @@
 		(instances
 			(project "PLC4Uni FelipeLG"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/de35c4cd-dec3-4999-96c6-2b4bc5552c34"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2453,7 +2205,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 111.76 0)
+		(at 116.84 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2461,8 +2213,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f5e72d8-b134-4b7f-9684-51ef929a4e98")
-		(property "Reference" "#PWR?"
-			(at 93.98 118.11 0)
+		(property "Reference" "#PWR045"
+			(at 116.84 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2223,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 116.84 0)
+			(at 116.84 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +2231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 111.76 0)
+			(at 116.84 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,7 +2240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 111.76 0)
+			(at 116.84 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2497,7 +2249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 111.76 0)
+			(at 116.84 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,42 +2263,24 @@
 		(instances
 			(project "PLC4Uni FelipeLG"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/de35c4cd-dec3-4999-96c6-2b4bc5552c34"
-					(reference "#PWR?")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED_AKL:LED_1.8mm_SMD")
-		(at 93.98 91.44 270)
+		(lib_id "power:VCC")
+		(at 113.03 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a3dbf928-7baa-48c8-9267-bf03353fd15e")
-		(property "Reference" "LED1"
-			(at 99.06 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED_1.8mm_SMD"
-			(at 99.06 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD_AKL:LED_1.8mm_GullWing"
-			(at 93.98 91.44 0)
+		(fields_autoplaced yes)
+		(uuid "a0faacf4-f313-4f1d-9b68-989e8839f1b3")
+		(property "Reference" "#PWR044"
+			(at 113.03 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,8 +2288,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 93.98 91.44 0)
+		(property "Value" "VCC"
+			(at 113.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,8 +2305,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, Generic 1.8mm SMD subminiature gull wing, Alternate KiCad Library"
-			(at 93.98 91.44 0)
+		(property "Datasheet" ""
+			(at 113.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,24 +2314,22 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "YLED1206R"
-			(at 103.886 92.71 90)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 113.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "e2080f83-f1ed-4fd8-a635-b5e63dfec978")
 		)
 		(pin "1"
-			(uuid "6581b940-4fbd-4d2a-9e52-84582e42203d")
+			(uuid "fd75eeac-8d57-42bb-9b52-d0f88d5064b6")
 		)
 		(instances
-			(project ""
+			(project "PLC4Uni FelipeLG"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/de35c4cd-dec3-4999-96c6-2b4bc5552c34"
-					(reference "LED1")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2605,7 +2345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a91c3d8d-0077-44aa-83e1-509642055649")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 157.48 69.85 0)
 			(effects
 				(font
@@ -2669,7 +2409,7 @@
 		(instances
 			(project "PLC4Uni FelipeLG"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/de35c4cd-dec3-4999-96c6-2b4bc5552c34"
-					(reference "U?")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2677,7 +2417,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0603")
-		(at 93.98 105.41 0)
+		(at 116.84 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2685,8 +2425,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd8877c3-cbdd-4e00-baca-d1821a6516d2")
-		(property "Reference" "C?"
-			(at 97.79 104.1399 0)
+		(property "Reference" "C1"
+			(at 120.65 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +2435,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 97.79 106.6799 0)
+			(at 120.65 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,8 +2443,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
-			(at 94.9452 109.22 0)
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
+			(at 117.8052 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2453,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 105.41 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2462,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
-			(at 93.98 105.41 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +2471,7 @@
 			)
 		)
 		(property "LCSC" "C89632"
-			(at 93.98 105.41 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,77 +2488,7 @@
 		(instances
 			(project "PLC4Uni FelipeLG"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/de35c4cd-dec3-4999-96c6-2b4bc5552c34"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistor_AKL:R_0603")
-		(at 93.98 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f69b9ca6-605b-4624-abae-fab9067a3088")
-		(property "Reference" "R31"
-			(at 96.52 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1K"
-			(at 96.52 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 93.98 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 93.98 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4c5183dc-0aa8-4714-89e5-d97551e1e61f")
-		)
-		(pin "1"
-			(uuid "68dfd43b-3f17-4e5e-97b4-6527ffbfd216")
-		)
-		(instances
-			(project "Diseños de circuitos"
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/de35c4cd-dec3-4999-96c6-2b4bc5552c34"
-					(reference "R31")
+					(reference "C1")
 					(unit 1)
 				)
 			)

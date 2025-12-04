@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1.8,
+          "width": 1.15
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,14 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2032,
+        0.254,
+        0.3556,
+        0.508,
+        0.7112
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +220,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -560,14 +578,146 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part number",
+          "name": "Part number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltaje",
+          "name": "Voltaje",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltaje ",
+          "name": "Voltaje ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "10V",
+          "name": "10V",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART NUMBERT",
+          "name": "PART NUMBERT",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "name": "",
+      "sort_asc": false,
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -616,7 +766,7 @@
     ],
     [
       "3b453a73-5bb7-4645-a7e8-6e186968fa05",
-      "board-plc4uni-G1w"
+      "board-plc4uni"
     ],
     [
       "d7c138f5-2714-4755-97f8-6c3994f45581",
@@ -625,6 +775,10 @@
     [
       "677b1a53-9a61-4664-8076-5db4c5298998",
       "plc4uni-cpu"
+    ],
+    [
+      "602981c3-7810-4433-8e1c-7df5fd4db462",
+      "input-npn-opto-2"
     ],
     [
       "2b288a7a-cc1f-443e-993d-9f7a4eb93332",
@@ -659,16 +813,12 @@
       "input-npn-2"
     ],
     [
-      "18a5a959-934f-45c5-942a-0d3e3c8a5a1f",
-      "input-npn-opto-2"
+      "13d94acf-875f-499d-b3a3-98424e4486d2",
+      "input-pnp-opto-2"
     ],
     [
       "3fda5391-68ec-4247-925a-af66065cf103",
       "input-pnp-2"
-    ],
-    [
-      "bb43bc0c-30de-472b-b8df-e649003c6193",
-      "input-pnp-opto-2"
     ],
     [
       "304245ed-3772-43ea-9156-20acc62cd04b",
